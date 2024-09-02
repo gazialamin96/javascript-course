@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>variable</title>
+</head>
+<body>
+
+  <script>
+    /*
+    // Objects make our code more organized
+    // Objects let us group multiple values together 
+    // Objects let us multiple values together 
+    const product = {
+      name: 'Socks',
+      price: 1000
+    };
+
+    console.log(product);
+    console.log(product.name);
+    console.log(product.price);
+
+    product.name = 'New Socks';
+    console.log(product);
+
+    product.price = 100;
+    console.log(product);
+
+    product.newProperty = true;
+    console.log(product.newProperty);
+
+    // delete newProprty
+    if (delete product.newProperty === true){
+      console.log('deleted ');
+    }
+    console.log(product);
+    */
+
+    const product2 = {
+      name: 'Shirt',
+      'delivery-time': '1 Day',
+      rating: {
+        stars: 4.5,
+        count: 87
+      }
+    }
+    console.log(product2.name);
+    console.log(product2['delivery-time']);
+    console.log(product2.rating.stars);
+    // JSON is similar to JS Object but less features
+    // We use JSON - * When we send data between computers * When we store data
+    //Build-In JSON object -- It's convert: Javascript Object to JSON
+    
+    //It's a method of the json object 
+    console.log(JSON.stringify(product2)); // converting Javascript object to JSON
+
+    const jsonString = JSON.stringify(product2); // Converting JSON to javascript 
+    console.log(JSON.parse(jsonString));
+
+
+    const object5 = {
+      /**
+       * 
+       */
+      method() {
+        console.log('Method');
+      }
+    };
+    console.log(object5.method());
+    // object5.method();
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+Style Name: test-style-ref
+Buyer Name: c & A
+ Quotation ID: 6184
+ ---Note: Without Quotation inquery Price Quotation working, that means validation not working 
+ need to solve it immediately
+
+
+
+ ------------------------
+ http://203.202.247.84/erp/index.php
+ -----------------------------------
+ JOb: BAML-24-00146
+ Following PO: 3533954
+
+
+ Buyer Name: C & A
+ Style Ref. Name: test-style-ref2.0
+ Quotation Inquiry:  GEVL-QIN-24-00002
+ Quotation ID: 6185
+--------------------
+
+Buyer Name: C & A 
+ Style Ref. Name: test-style-ref3.0
+
+ commercial:
+ -----------
+ Sales Contract Entry: GEVL-SC-24-00020
+ Internal File No: 979
+ Bank File No: 20
+ Contract Number: C AND E-EU-AW24
+ Contract Value: 979000.00
+ 
+ Quotation Inquiry:  
+ Quotation ID: 
+ JOb: GEVL-24-00185
+
+
+
+
+http://erp.amtranet.com/production/reports/unit.php?url=Garments%20Export%20Village%20Ltd./DP%20-%20Level%20-%204%20[Sewing]/
+
+
+
+main level- dekko accessories: FF 14 M10640G MITRE FOLD 
+
+<input style="width:130px;" type="text" title="Double Click to Search;  Allowed Characters: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890.-,%@!/<>?+[]{};: " ondblclick="openmypage('requires/pre_cost_entry_controller_v2.php?action=order_popup','Job/Order Selection Form')" class="text_boxes" placeholder="Browse Job No." name="txt_job_no" id="txt_job_no" readonly="">

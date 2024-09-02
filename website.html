@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web site with javascript</title>
+  <style>
+    .button{
+      background-color: yellow;
+      color: black;
+      border-color: black;
+      border-style: groove;
+      font-size: medium;
+    }
+  </style>
+</head>
+<body>
+  <h1>Adults prety Cotton T-shirt</h1>
+  <p>Price: $7.99</p>
+  <button type="button" title="Click here for add to cart" class="button" id="addToCartButton">Add to cart</button>
+  <button type="button" title="click for buy this product" class="button" id="buyNow">Buy now</button>
+
+
+  <script type="text/javascript">
+    
+    function addToCartButton(){
+      alert("Added to cart");
+    }
+    function buyNow(){
+      alert("Loading...");
+      alert("Purchased");
+    }
+    
+    document.getElementById("addToCartButton").addEventListener("click", addToCartButton)
+    document.getElementById("buyNow").addEventListener("click", buyNow)
+  </script>
+</body>
+</html>
